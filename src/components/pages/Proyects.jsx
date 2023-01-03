@@ -1,9 +1,18 @@
 import React from 'react'
+import '../styles/proyects.css'
 
 const Proyects = () => {
   return (
-    <div>
-      <h1>ESTA ES LA PAGINA ACERCA DE PROYECTOS</h1>
+    <div className='proyects-container'>
+      <div className='proyects-box'>
+        <div className='quote-box'>
+        <a href="https://primer-entregable-react.netlify.app/" target={'_blank'}>
+          <img className='quote-img'  src="../public/proyect/quotebox.png" alt="proyecto quotebox"/>
+        </a>
+
+        </div>
+
+      </div>
     </div>
   )
 }
