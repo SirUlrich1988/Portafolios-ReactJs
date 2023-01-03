@@ -16,8 +16,8 @@ const AboutMe = () => {
             En los lugares que pretendo trabajar siempre dare lo mejor de mi buscando
             todos los dias aprender y dar el 100% con el fin de que mi trabajo sirva
             para el exito de mi equipo de trabajo, mio y de mi empresa.
-            Todo lo que logro aprender siempre busco perfecionarlo con el fin de
-            generar una mejora que pueda facilitar y mejorar el desempeño de mis
+            Todo lo que logro aprender siempre busco perfeccionarlo con el fin de
+            generar una mejora que pueda facilitar y optimizar el desempeño de mis
             actividades.
           </span>
         </div>
