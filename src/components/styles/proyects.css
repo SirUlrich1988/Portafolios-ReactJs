@@ -8,7 +8,7 @@
 
 .proyects-box {
     width: 100%;
-    height: 100vh;
+    height: 650px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -17,10 +17,85 @@
 
 .quote-box {
     width: 250px;
-    height: 250px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.quote-box span {
+    font-size: 13px;
+    text-align: center;
 }
 
 .proyects-img {
-    width: 320px;
-    height: 200px;  
+    width: 240px;
+    height: 130px;  
+    border-radius: 15px;
+}
+
+.weatherapp-box {
+    width: 250px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.weatherapp-box span {
+    font-size: 13px;
+    text-align: center;
+}
+
+.weatherapp-img {
+    width: 240px;
+    height: 130px;  
+    border-radius: 15px;
+}
+
+.rickandmorty-box {
+    width: 250px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.rickandmorty-box span {
+    font-size: 13px;
+    text-align: center;
+}
+
+.rickandmorty-img {
+    width: 240px;
+    height: 130px;  
+    border-radius: 15px;
+}
+
+.pokedex-box {
+    width: 250px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.pokedex-box span {
+    font-size: 13px;
+    text-align: center;
+}
+
+.pokedex-img {
+    width: 240px;
+    height: 130px;  
+    border-radius: 15px;
+}
+
+.repo-img {
+    width: 30px;
+    height: 30px;
 }
