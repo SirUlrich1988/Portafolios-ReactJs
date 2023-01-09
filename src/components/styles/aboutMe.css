@@ -6,12 +6,27 @@
 }
 
 .about-img {
-    width: 50vh;
+    width: 50%;
     height: 100vh;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: flex-end;
     align-items: center;
+}
+
+.about-info {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.about-img img {
+    width: 450px;
+    height: 500px;
+    border-radius: 25px;
 }
 
 .profile-img {
@@ -20,10 +35,16 @@
 }
 
 .about-box {
-    width: 50vh;
+    width: 600px;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+}
+
+.about-data {
+    width: 400px;
+    text-align: center;
+    font-size: 18px;
 }
