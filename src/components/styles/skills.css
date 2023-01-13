@@ -4,11 +4,15 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-image: url(https://images3.alphacoders.com/115/thumb-1920-1153857.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .skills-box {
     width: 100%;
-    height: 80vh;
+    height: 87vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -21,6 +25,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    color: white;
 }
 
 .skills-img-css {
@@ -29,6 +34,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
+    color: white;
 }
 
 .skills-img-javascript {
@@ -37,6 +43,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    color: white;
 }
 
 .skills-img-react {
@@ -45,6 +52,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
+    color: white;
 }
 
 .skills-img-redux {
@@ -53,6 +61,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    color: white;
 }
 
 .skills-img-boostrap {
@@ -61,6 +70,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
+    color: white;
 }
 
 .skills-img-node {
@@ -69,6 +79,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    color: white;
 }
 
 .skills-img-postgresql {
@@ -77,6 +88,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
+    color: white;
 }
 
 .tecno-img {

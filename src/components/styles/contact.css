@@ -4,10 +4,13 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    background-image: url(https://img3.wallspic.com/previews/3/8/2/0/30283/30283-negro-luz-monocromo-en_blanco_y_negro-ambiente-x750.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .contact-box1 {
-    width: 50%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -15,7 +18,7 @@
 }
 
 .contact-box1 img {
-    width: 100%;
+    width: 90%;
 }
 
 .contact-box2 {

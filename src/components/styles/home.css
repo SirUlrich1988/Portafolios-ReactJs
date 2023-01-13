@@ -1,7 +1,7 @@
 .home-container {
     width: 100%;
     height: 100vh;
-    background-color: blueviolet;
+    background-image: url(https://images3.alphacoders.com/115/thumb-1920-1153857.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,4 +17,23 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.home-welcome {
+    font-size: 40px;
+}
+
+.home-name {
+    font-size: 35px;
+}
+
+.home-title {
+    font-size: 30px;
+}
+
+.home-description {
+    text-align: center;
+    width: 800px;
+    height: 80px;
+    font-size: 20px;
 }

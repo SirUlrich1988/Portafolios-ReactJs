@@ -1,4 +1,3 @@
-import { Button } from 'bootstrap'
 import React, { useState } from 'react'
 import '../styles/contact.css'
 
@@ -47,9 +46,6 @@ const Contact = () => {
 
   return (
     <div className='contact-container'>
-      <div className='contact-box1'>
-        <img src="https://www.garzablancaresort.com.mx/blog/wp-content/uploads/2018/03/beach-safety.jpg" alt="mi ubicacion" />
-      </div>
       <div className='contact-box2'>
         <div className='contact-info'>
           <h1>Contactame</h1>
@@ -101,6 +97,15 @@ const Contact = () => {
             </div>
           </div>
         </form>
+      <div className='contact-box1'>
+        <div className='contact-social'>
+        <a className='btn-social' href="https://github.com/SirUlrich1988?tab=repositories" target={'_blank'}><box-icon name='github' type='logo' animation='burst' ></box-icon></a>
+        <br />
+        <a className='btn-social' href="https://www.linkedin.com/in/luis-ernesto-vallejo-mata-246037245/" target={'_blank'}><box-icon name='linkedin-square' type='logo' animation='burst' ></box-icon></a>
+        <br />
+        <a className='btn-social' href="https://www.facebook.com/Angmistico" target={'_blank'}><box-icon name='facebook-circle' type='logo' animation='burst' ></box-icon></a>
+        </div>
+      </div>
       </div>
     </div>
   )

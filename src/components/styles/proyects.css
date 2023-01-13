@@ -4,6 +4,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-image: url(https://images3.alphacoders.com/115/thumb-1920-1153857.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .proyects-box {
@@ -15,6 +19,11 @@
     justify-content: center;
 }
 
+.proyect-title {
+    font-size: 20px;
+    color: white;
+}
+
 .quote-box {
     width: 250px;
     height: 550px;
@@ -24,9 +33,10 @@
     align-items: center;
 }
 
-.quote-box span {
+.proyect-description {
     font-size: 13px;
     text-align: center;
+    color: white;
 }
 
 .proyects-img {
@@ -44,11 +54,6 @@
     align-items: center;
 }
 
-.weatherapp-box span {
-    font-size: 13px;
-    text-align: center;
-}
-
 .weatherapp-img {
     width: 240px;
     height: 130px;  
@@ -62,11 +67,6 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-}
-
-.rickandmorty-box span {
-    font-size: 13px;
-    text-align: center;
 }
 
 .rickandmorty-img {
@@ -84,11 +84,6 @@
     align-items: center;
 }
 
-.pokedex-box span {
-    font-size: 13px;
-    text-align: center;
-}
-
 .pokedex-img {
     width: 240px;
     height: 130px;  
@@ -98,4 +93,5 @@
 .repo-img {
     width: 30px;
     height: 30px;
+    background-color: white;
 }
