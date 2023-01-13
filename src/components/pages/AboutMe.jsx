@@ -11,8 +11,9 @@ const AboutMe = () => {
         </div>
       </div>
       <div className='btn-box'>
-        <button className='cv-btn'><a href="../public/img/CV-Luis Ernesto Vallejo Mata.pdf" target={'_blank'}>Curriculum <br /> Desarrollador</a></button> <br /><br />
-        <button className='cv-btn'><a href="../public/img/CV-Luis Ernesto Vallejo Mata.doc" target={'_blank'}>Curriculum <br /> Almacenista</a></button>
+      <button type="button" class="btn btn-outline-dark"><a href="../public/img/CV-Luis Ernesto Vallejo Mata.pdf" target={'_blank'}>Curriculum <br /> Desarrollador</a></button>
+      <br />
+      <button type="button" class="btn btn-outline-dark"><a href="../public/img/CV-Luis Ernesto Vallejo Mata.doc" target={'_blank'}>Curriculum <br /> Almacenista</a></button>
       </div>
       <div className='about-info'>
         <div className='about-box'>

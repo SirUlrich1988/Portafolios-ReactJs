@@ -87,9 +87,10 @@ const Contact = () => {
               </textarea>
             </div>
             <div className='input-box'>
-              <input
-                type="submit"
-                value="Enviar"
+            <input 
+            class="btn btn-primary" 
+            type="submit" 
+            value="Enviar"
               />
               {
                 messages ?? <p>{messages}</p>
@@ -97,15 +98,21 @@ const Contact = () => {
             </div>
           </div>
         </form>
-      <div className='contact-box1'>
-        <div className='contact-social'>
-        <a className='btn-social' href="https://github.com/SirUlrich1988?tab=repositories" target={'_blank'}><box-icon name='github' type='logo' animation='burst' ></box-icon></a>
-        <br />
-        <a className='btn-social' href="https://www.linkedin.com/in/luis-ernesto-vallejo-mata-246037245/" target={'_blank'}><box-icon name='linkedin-square' type='logo' animation='burst' ></box-icon></a>
-        <br />
-        <a className='btn-social' href="https://www.facebook.com/Angmistico" target={'_blank'}><box-icon name='facebook-circle' type='logo' animation='burst' ></box-icon></a>
+        <div className='contact-box1'>
+            <span>Social</span>
+          <div className='contact-social'>
+            <div className='icon-box'>
+            <a className='btn-social' href="https://github.com/SirUlrich1988?tab=repositories" target={'_blank'}><box-icon name='github' type='logo' color='#ffffff' ></box-icon></a>
+            </div>
+            <div className='icon-box'>
+            <a className='btn-social' href="https://www.linkedin.com/in/luis-ernesto-vallejo-mata-246037245/" target={'_blank'}><box-icon name='linkedin-square' type='logo' color='#220bef' ></box-icon></a>
+            </div>
+            <div className='icon-box'>
+            <a className='btn-social' href="https://www.facebook.com/Angmistico" target={'_blank'}><box-icon name='facebook-square' type='logo' color='#1a00ff' ></box-icon></a>
+            </div>
+          </div>
+            <span>Todos los derechos reservados 2023</span>
         </div>
-      </div>
       </div>
     </div>
   )
