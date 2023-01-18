@@ -30,3 +30,24 @@ body {
   .z-fixed {
     z-index: 105;
   }
+
+  input {
+    width: 260px;
+    padding: .5rem 1rem;
+    border-radius: 8px;
+  }
+
+  textarea {
+    width: 260px;
+    height: 200px;
+    padding: .5rem 1rem;
+    border-radius: 8px;
+  }
+
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    font-size: 20px;
+  }

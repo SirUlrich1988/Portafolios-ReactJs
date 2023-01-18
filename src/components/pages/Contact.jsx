@@ -41,20 +41,21 @@ const Contact = () => {
       })
   }
 
+
   function handleChange({ name, value }) {
     setInput({ ...input, [name]: value })
   }
 
   return (
     <div className='contact-container'>
-      <div className='contact-box2'>
+      <div className='contact-box'>
         <div className='contact-info'>
           <h1>Contactame</h1>
           <h5>Hola si tienes alguna idea personal o para tu negocio que quisieras que cobre vida puedes contactarme por este medio y sera un placer ayudarte.</h5>
         </div>
         <form className='contact-form' onSubmit={handleSubmit}>
           <div className='contact-name'>
-            <label htmlFor="nombre">Nombre:</label><br />
+            <label className='contact-label' htmlFor="nombre">Nombre:</label><br />
             <input
               id='nombre'
               type="text"
@@ -65,7 +66,7 @@ const Contact = () => {
             />
           </div>
           <div className='contact-email'>
-            <label htmlFor="correo">Correo:</label><br />
+            <label className='contact-label' htmlFor="correo">Correo:</label><br />
             <input
               id='correo'
               type="email"
@@ -77,7 +78,7 @@ const Contact = () => {
           </div>
           <div className='contact-message'>
             <div className='message-box'>
-              <label htmlFor="mensaje">Mensaje:</label><br />
+              <label className='contact-label' htmlFor="mensaje">Mensaje:</label><br />
               <textarea
                 id='mensaje'
                 name='mensaje'
@@ -95,27 +96,27 @@ const Contact = () => {
               />
               {
                 messages ? <p className='contact-msn'>
-                  <span className='contact-msn--container'>{messages}</span>
+                  <span className='contact-msn-container'>{messages}<br /><i class='bx bx-check-circle'></i></span>
                 </p> : null
               }
             </div>
           </div>
         </form>
-        <div className='contact-box1'>
-            <span>Social</span>
+        {/* <div className='contact-footer'>
+          <div className='contact-media'>
+          <i class='bx bx-envelope' ></i>
+          <span>Correo : luisern29@gmail.com</span>
+          <i class='bx bxl-whatsapp' ></i>
+          <span>Telefono : +52 99 81838461</span>
+          </div>
+        </div> */}
+            <span className='social-title'>Social</span>
           <div className='contact-social'>
-            <div className='icon-box'>
-            <a className='btn-social' href="https://github.com/SirUlrich1988?tab=repositories" target={'_blank'}><box-icon name='github' type='logo' color='#ffffff' ></box-icon></a>
-            </div>
-            <div className='icon-box'>
-            <a className='btn-social' href="https://www.linkedin.com/in/luis-ernesto-vallejo-mata-246037245/" target={'_blank'}><box-icon name='linkedin-square' type='logo' color='#220bef' ></box-icon></a>
-            </div>
-            <div className='icon-box'>
-            <a className='btn-social' href="https://www.facebook.com/Angmistico" target={'_blank'}><box-icon name='facebook-square' type='logo' color='#1a00ff' ></box-icon></a>
-            </div>
+            <a className='btn-repo' href="https://github.com/SirUlrich1988?tab=repositories" target={'_blank'}><i class='bx bxl-github'></i></a>
+            <a className='btn-social' href="https://www.linkedin.com/in/luis-ernesto-vallejo-mata-246037245/" target={'_blank'}><i class='bx bxl-linkedin-square' ></i></a>
+            <a className='btn-social' href="https://www.facebook.com/Angmistico" target={'_blank'}><i class='bx bxl-facebook-square'></i></a>
           </div>
             <span>Todos los derechos reservados 2023</span>
-        </div>
       </div>
     </div>
   )

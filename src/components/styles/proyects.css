@@ -1,104 +1,95 @@
 .proyects-container {
     width: 100%;
-    height: 100vh;
-    background-image: url('https://images3.alphacoders.com/115/thumb-1920-1153857.png');
+    min-height: 100vh;
+    background-image: url("https://i.pinimg.com/originals/ec/7a/7b/ec7a7bfb87e7efea2a476a3844950acf.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    align-content: center;
+    gap: 1.5rem;
+    padding: 2rem 1rem;
 }
+
+.proyects-container::before {
+    background-color: rgba(0, 0, 0, 0.37);
+    content: "";
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+ }
 
 .proyects-box {
-    width: 100%;
-    height: 650px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    gap: 30px;
+    position: relative;
 }
 
-.proyect-title {
-    font-size: 20px;
-    color: white;
-}
-
-.quote-box {
-    width: 250px;
-    height: 550px;
+.proyects-item {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
     align-items: center;
-}
-
-.proyect-description {
-    font-size: 13px;
-    text-align: center;
-    color: white;
+    gap: 1rem;
 }
 
 .proyects-img {
-    width: 240px;
-    height: 130px;  
-    border-radius: 15px;
+    width: 80%;
+    height: 140px;
+    margin: 0 auto;
 }
 
-.weatherapp-box {
-    width: 250px;
-    height: 550px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+.proyect-description {
+    text-align: center;
 }
 
-.weatherapp-img {
-    width: 240px;
-    height: 130px;  
-    border-radius: 15px;
+.proyect-title {
+    font-size: 23px;
+    color: white;
 }
 
-.rickandmorty-box {
-    width: 250px;
-    height: 550px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.rickandmorty-img {
-    width: 240px;
-    height: 130px;  
-    border-radius: 15px;
-}
-
-.pokedex-box {
-    width: 250px;
-    height: 550px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.pokedex-img {
-    width: 240px;
-    height: 130px;  
-    border-radius: 15px;
-}
-
-.repo-img {
-    width: 30px;
-    height: 30px;
+.btn-repo {
+    width: 50px;
+    height: 50px;
     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 50%;
 }
 
-@media (max-width: 768px) {
+.bxl-github {
+    font-size: 55px;
+    color: black;
+}
 
+@media (min-width: 768px) {
+
+    .proyects-container {
+        width: 100%;
+        min-height: 100vh;
+        background-image: url("https://images3.alphacoders.com/115/thumb-1920-1153857.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        display: grid;
+        align-content: center;
+        gap: 1.5rem;
+        padding: 0;
+    }
+
+    .proyects-box {
+        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    }
+
+    .proyect-description {
+        width: 60%;
+    }
     
+  
+
 }
