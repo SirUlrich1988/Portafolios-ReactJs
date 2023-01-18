@@ -6,7 +6,7 @@ const AboutMe = () => {
   return (
     <div className='about-container'>
       <div className='about-img'>
-          <img className='profile-img' src="assets/perfil.png" alt="imagen de perfil" />
+          <img className='profile-img' src="./proyect/perfil.png" alt="imagen de perfil" />
       </div>
       <div className='about-info'>
         <div className='about-box'>
@@ -25,8 +25,8 @@ const AboutMe = () => {
         </div>
       </div>
       <div className='about-links'>
-      <a className='links-items' href="assets/CV-Luis Ernesto Vallejo Mata.pdf" target={'_blank'}>Curriculum <br /> Desarrollador</a>
-      <a className='links-items' href="assets/CV-Luis Ernesto Vallejo Mata.doc" target={'_blank'}>Curriculum <br /> Almacenista</a>
+      <a className='links-items' href="./proyect/CV-Luis Ernesto Vallejo Mata.pdf" target={'_blank'}>Curriculum <br /> Desarrollador</a>
+      <a className='links-items' href="./proyect/CV-Luis Ernesto Vallejo Mata.doc" target={'_blank'}>Curriculum <br /> Almacenista</a>
       </div>
     </div>
   )
