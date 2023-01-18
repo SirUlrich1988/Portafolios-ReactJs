@@ -6,14 +6,7 @@ const AboutMe = () => {
   return (
     <div className='about-container'>
       <div className='about-img'>
-        <div className='img-box'>
           <img className='profile-img' src="../public/img/perfil.png" alt="imagen de perfil" />
-        </div>
-      </div>
-      <div className='btn-box'>
-      <button type="button" class="btn btn-outline-dark"><a href="../public/img/CV-Luis Ernesto Vallejo Mata.pdf" target={'_blank'}>Curriculum <br /> Desarrollador</a></button>
-      <br />
-      <button type="button" class="btn btn-outline-dark"><a href="../public/img/CV-Luis Ernesto Vallejo Mata.doc" target={'_blank'}>Curriculum <br /> Almacenista</a></button>
       </div>
       <div className='about-info'>
         <div className='about-box'>
@@ -30,6 +23,10 @@ const AboutMe = () => {
             actividades.
           </span> <br />
         </div>
+      </div>
+      <div className='about-links'>
+      <a className='links-items' href="../public/img/CV-Luis Ernesto Vallejo Mata.pdf" target={'_blank'}>Curriculum <br /> Desarrollador</a>
+      <a className='links-items' href="../public/img/CV-Luis Ernesto Vallejo Mata.doc" target={'_blank'}>Curriculum <br /> Almacenista</a>
       </div>
     </div>
   )

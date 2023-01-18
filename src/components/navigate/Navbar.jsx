@@ -6,7 +6,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-black">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-black z-fixed" >
         <div className="container-fluid">
           <Link to='/'>
             <img src="https://w0.peakpx.com/wallpaper/579/715/HD-wallpaper-data-brain-number-science-tech.jpg" width='50' />

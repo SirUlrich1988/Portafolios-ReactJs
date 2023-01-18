@@ -1,97 +1,98 @@
 .skills-container {
     width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-image: url(https://images3.alphacoders.com/115/thumb-1920-1153857.png);
+    height: auto;
+    background-image: url('https://i.pinimg.com/originals/ec/7a/7b/ec7a7bfb87e7efea2a476a3844950acf.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    color: white;
+    padding: 2.5rem 0;
 }
+
+.bx {
+    font-size: 150px;
+}
+
+.bxl-html5 {
+    color: rgb(255, 68, 0);
+}
+
+.bxl-css3 {
+    color: blue;
+}
+
+.bxl-javascript {
+    color: yellow;
+}
+
+.bxl-react {
+    color: aqua;
+}
+
+.bxl-redux {
+    color: darkorchid;
+}
+
+.bxl-bootstrap {
+    color: #6f09f4;
+}
+.bxl-nodejs {
+    color: green;
+}
+
+.bxl-postgresql {
+    color: rgb(39, 39, 240);
+}
+
+.skills-container::before {
+    background-color: rgba(0, 0, 0, 0.37);
+    content: '';
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+ }
 
 .skills-box {
-    width: 100%;
-    height: 87vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+    position: relative;
+}
+
+.skills-items {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
-}
-
-.skills-img-html {
-    height: 450px;
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
-    color: white;
-}
-
-.skills-img-css {
-    height: 450px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-    color: white;
-}
-
-.skills-img-javascript {
-    height: 450px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    color: white;
-}
-
-.skills-img-react {
-    height: 450px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-    color: white;
-}
-
-.skills-img-redux {
-    height: 450px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    color: white;
-}
-
-.skills-img-boostrap {
-    height: 450px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-    color: white;
-}
-
-.skills-img-node {
-    height: 450px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    color: white;
-}
-
-.skills-img-postgresql {
-    height: 450px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-    color: white;
+    gap: 10px;
 }
 
 .tecno-img {
-    width: 160px;
-    height: 150px;
+    width: 100px;
+    height: 105px;
+}
+
+@media (min-width: 768px) {
+    .skills-container {
+        width: 100%;
+        min-height: 100vh;
+        background-image: url('https://images3.alphacoders.com/115/thumb-1920-1153857.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        padding: 2.5rem 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .skills-box {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 50px;
+        position: relative;
+    }
 }

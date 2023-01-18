@@ -5,36 +5,36 @@ const Skills = () => {
   return (
     <div className='skills-container'>
       <div className='skills-box'>
-        <div className='skills-img-html'>
-          <img className='tecno-img' src="../public/img/html.png" alt="logo html" />
+        <div className='skills-items'>
+        <i className='bx bxl-html5'></i>
           <span>HTML5</span>
         </div>
-        <div className='skills-img-css'>
-          <img className='tecno-img' src="../public/img/css.png" alt="logo css" />
+        <div className='skills-items'>
+        <i className='bx bxl-css3' ></i>
           <span>CSS</span>
         </div>
-        <div className='skills-img-javascript'>
-          <img className='tecno-img' src="../public/img/javascript.png" alt="logo javascript" />
+        <div className='skills-items'>
+        <i className='bx bxl-javascript' ></i>
           <span>JAVASCRIPT</span>
         </div>
-        <div className='skills-img-react'>
-          <img className='tecno-img' src="../public/img/react.png" alt="logo react" />
+        <div className='skills-items'>
+        <i className='bx bxl-react' ></i>
           <span>REACTJS</span>
         </div>
-        <div className='skills-img-redux'>
-          <img className='tecno-img' src="../public/img/redux.png" alt="logo redux" />
+        <div className='skills-items'>
+        <i className='bx bxl-redux' ></i>
           <span>REDUX</span>
         </div>
-        <div className='skills-img-boostrap'>
-          <img className='tecno-img' src="../public/img/boostrap.png" alt="logo boostrap" />
+        <div className='skills-items'>
+        <i className='bx bxl-bootstrap'></i>
           <span>BOOSTRAP</span>
         </div>
-        <div className='skills-img-node'>
-          <img className='tecno-img' src="../public/img/node.png" alt="logo node" />
+        <div className='skills-items'>
+        <i className='bx bxl-nodejs' ></i>
           <span>NODEJS</span>
         </div>
-        <div className='skills-img-postgresql'>
-          <img className='tecno-img' src="../public/img/postgresql.png" alt="logo postgresql" />
+        <div className='skills-items'>
+        <i className='bx bxl-postgresql' ></i>
           <span>POSTGRESQL</span>
         </div>
       </div>

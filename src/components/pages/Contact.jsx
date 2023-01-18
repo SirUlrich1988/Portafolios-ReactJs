@@ -24,6 +24,7 @@ const Contact = () => {
       .then(data => {
         if (data) {
           setMessage('Tu mensaje se ha enviado correctamente')
+          setInput({})
           setTimeout(() => {
             setMessage(null)
           }, 3000)
@@ -32,12 +33,12 @@ const Contact = () => {
       .catch(error => {
         if (error) {
           setMessage('Sucedio un error, intentalo mas tarde por favor')
+          setInput({})
           setTimeout(() => {
             setMessage(null)
           }, 3000)
         }
       })
-    setInput({})
   }
 
   function handleChange({ name, value }) {
@@ -93,7 +94,9 @@ const Contact = () => {
             value="Enviar"
               />
               {
-                messages ?? <p>{messages}</p>
+                messages ? <p className='contact-msn'>
+                  <span className='contact-msn--container'>{messages}</span>
+                </p> : null
               }
             </div>
           </div>
